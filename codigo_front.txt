@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Blog Dev</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Encabezado y Navegación -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="#" class="logo">&lt;DevBlog /&gt;</a>
+      <nav class="nav-links">
+        <a href="#articulos">Artículos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <button id="theme-toggle" class="btn-theme" aria-label="Cambiar tema">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Presentación -->
+  <section class="hero">
+    <div class="container">
+      <h1>Ideas, Código y Desarrollo</h1>
+      <p>Un espacio dedicado a compartir proyectos, notas de desarrollo y experiencias.</p>
+    </div>
+  </section>
+
+  <!-- Sección Principal / Artículos -->
+  <main id="articulos" class="container main-content">
+    <section class="posts-grid">
+      
+      <!-- Tarjeta 1 -->
+      <article class="post-card">
+        <span class="tag">Frontend</span>
+        <h2>Construyendo interfaces modernas con HTML y CSS</h2>
+        <p>Aprende las mejores prácticas para estructurar tu maquetación usando CSS Grid y Flexbox sin frameworks.</p>
+        <div class="post-meta">
+          <span>12 Ago 2026</span> • <span>5 min de lectura</span>
+        </div>
+      </article>
+
+      <!-- Tarjeta 2 -->
+      <article class="post-card">
+        <span class="tag">JavaScript</span>
+        <h2>Manipulación del DOM paso a paso</h2>
+        <p>Descubre cómo añadir interactividad a tus aplicaciones web de forma sencilla con JS vanilla.</p>
+        <div class="post-meta">
+          <span>08 Ago 2026</span> • <span>4 min de lectura</span>
+        </div>
+      </article>
+
+      <!-- Tarjeta 3 -->
+      <article class="post-card">
+        <span class="tag">Agile</span>
+        <h2>Flujos de trabajo efectivos con Scrum</h2>
+        <p>Cómo organizar tus tareas y sprints en repositorios compartidos para colaborar en equipo.</p>
+        <div class="post-meta">
+          <span>01 Ago 2026</span> • <span>3 min de lectura</span>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 DevBlog. Creado con HTML, CSS y JS puro.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
